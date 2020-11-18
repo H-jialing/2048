@@ -1,0 +1,48 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048小游戏",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open 'Google Chrome'",
+    "build": "webpack --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H-jialing/2048.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/H-jialing/2048/issues"
+  },
+  "homepage": "https://github.com/H-jialing/2048#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.1",
+    "cache-loader": "^4.1.0",
+    "css-loader": "^5.0.1",
+    "dart-sass": "^1.25.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.0.4",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "thread-loader": "^3.0.1",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9"
+  }
+}
